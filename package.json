@@ -35,11 +35,11 @@
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
-
     "@angular/language-service": "^5.2.0",
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
+    "autoprefixer": "^8.0.0",
     "codelyzer": "^4.0.1",
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.1",
@@ -48,6 +48,9 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "postcss": "^6.0.19",
+    "postcss-cli": "^5.0.0",
+    "postcss-scss": "^1.0.4",
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1"
