@@ -1,0 +1,40 @@
+
+<div class="test">
+        <div class="container-full-bg">
+        <div class="row top-buffer">
+          <div class="col-md-8">
+          <div class ="chartClass" style="width: 100%; position:center">
+              <canvas id="canvas">{{chart}}</canvas>
+            </div>
+          </div>
+          
+        <div class="col-md-4" >
+            <div class="spacer top-buffer">
+          <p class="h1">BUY/SELL</p>
+          <p class="h1">Balanca: {{balance}}</p>
+          <br/>
+          <div class="row">
+            <button id = "buyButton"class = "button btn round red"(click) ='zbritPara()' >-</button>
+            <input class = "inputNumb" type="number" value={{betValue}}>
+            <button class = "button round greenAdd" (click) ='shtoPara()'>+</button>
+          </div>
+        </div>
+          <div class="row">
+            <a class="button large round green" (click) = 'buy()'>BUY</a>
+        <br/>
+            <a class="button large round orange" (click) = 'sell()'>SELL</a>
+            <br/>
+            <div class="spacer top-buffer">
+            <p class="h3">{{lastBet}} </p>
+          </div>
+            </div>
+          
+          </div>
+        </div>  
+        </div>
+        
+        <div class="footer">
+            <p>Trading Web-App</p>
+          </div>
+        <router-outlet></router-outlet>
+        </div>

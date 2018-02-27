@@ -1,0 +1,143 @@
+.chartClass{
+    width: 100px;
+    height: 100px;
+    
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    float: left;
+    /* margin-top:100px; */
+}
+
+
+/* Button - these styles are the good stuff */
+
+.button {
+    background-color: #999;
+    background-image: -webkit-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+    background-image:    -moz-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+    background-image:     -ms-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+    background-image:      -o-linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+    background-image:         linear-gradient(hsla(0,0%,100%,.05), hsla(0,0%,0%,.1));
+    border: none;
+    border-radius: .5em;
+    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
+                inset 0 2px 0 hsla(0,0%,100%,.1),
+                inset 0 1.2em 0 hsla(0,0%,100%,0.1),
+                inset 0 -.2em 0 hsla(0,0%,100%,.1),
+                inset 0 -.25em 0 hsla(0,0%,0%,.25),
+                0 .25em .25em hsla(0,0%,0%,.05);
+    color: #444;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 .5em 1em;
+    padding: .5em 1.5em .75em;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 1px 1px hsla(0,0%,100%,.25);
+    vertical-align: middle;
+}
+.button:hover {
+    outline: none;
+}
+.button:hover,
+.button:focus {
+    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
+                inset 0 2px 0 hsla(0,0%,100%,.1),
+                inset 0 1.2em 0 hsla(0,0%,100%,.1),
+                inset 0 -.2em 0 hsla(0,0%,100%,.1),
+                inset 0 -.25em 0 hsla(0,0%,0%,.25),
+                inset 0 0 0 3em hsla(0,0%,100%,.2),
+                0 .25em .25em hsla(0,0%,0%,.05);
+}
+.button:active {
+    box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2),
+                inset 0 2px 0 hsla(0,0%,100%,.1),
+                inset 0 1.2em 0 hsla(0,0%,100%,.1),
+                inset 0 0 0 3em hsla(0,0%,100%,.2),
+                inset 0 .25em .5em hsla(0,0%,0%,.05),
+                0 -1px 1px hsla(0,0%,0%,.1),
+                0 1px 1px hsla(0,0%,100%,.25);
+    margin-top: .25em;
+    outline: none;
+    padding-bottom: .5em;
+}
+
+.large {
+    font-size: 2.0em;
+}
+
+.round {
+    border-radius: 1.25em;
+}
+
+
+/* Orange */
+
+.orange {
+    background-color: #FFCF25;
+}
+
+/* Green */
+
+.green {
+    background-color: #47c9af;
+    font-size: 2.1em;
+}
+
+.buttonDiv{
+   top:0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   float: left;
+   margin-left: 130px;
+   margin-top:100px;
+}
+
+.buttonDiv > h1  {
+    margin-left:57px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+ }
+
+ .greenAdd{
+     background-color: #22c41c;
+ }
+
+ .red{
+    background-color: #c21431;
+ }
+
+ input[type=number]{
+     height: 1.8em;
+     text-align: center;
+     
+ }
+
+ .buttonDiv > a {
+     margin-left: 65px;
+ }
+
+ .spacer {
+   
+    margin-left: 50px;
+}
+
+.top-buffer { margin-top:70px; }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #EDC124;
+    color: white;
+    text-align: center;
+}
+
